@@ -1,0 +1,121 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c6e8f7;
+}
+
+/* MTNL Page styles */
+.mtnl-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* MTNL Header */
+.mtnl-header {
+  background-color: white;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.mtnl-logo {
+  width: 40%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Navbar styles */
+.mtnl-navbar {
+  background-color: #323b40;
+  
+  margin-left: 20%;
+  margin-right: 23%;
+  color: white;
+}
+
+.navbar-container {
+  padding-left: 6%;
+  padding-right: auto;
+  display:inline-flexbox;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s, background-color 0.3s; /* Transition for color and background */
+}
+
+.nav-links li a:hover {
+  color: #61dafb; /* Change text color on hover */
+  background-color: rgba(255, 255, 255, 0.2); /* Background change on hover */
+}
+
+/* Main Content Styling */
+.main-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #183164;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .nav-links li a {
+    padding: 15px;
+  }
+}

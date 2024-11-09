@@ -1,0 +1,117 @@
+/* src/components/MTNL/pages/Opportunities.css */
+
+.opportunities-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-opportunities {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+  
+  .job-roles {
+    margin-bottom: 30px;
+  }
+  
+  .job-roles h3 {
+    font-size: 24px;
+    color: #34495e;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .job-roles ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-roles li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-roles li strong {
+    display: block;
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .job-roles li p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .job-roles li ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .job-roles li ul li {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  
+  .application-process h3,
+  .important-dates h3 {
+    font-size: 24px;
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .application-process p,
+  .important-dates p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .application-process ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  .application-process ol li {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 15px;
+  }
+  
+  .important-dates ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .important-dates ul li {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  
+  .important-dates ul li strong {
+    color: #2c3e50;
+  }
+  

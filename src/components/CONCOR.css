@@ -1,0 +1,47 @@
+/* src/styles/concorPage.css */
+.concor-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background: url('https://example.com/concor-background.jpg') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  .about, .services, .contact {
+    background-color: #e3f2fd;
+    border-radius: 10px;
+  }
+  
+  .services .service-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .services .card {
+    background: #1565c0;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .news .news-item {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #bbdefb;
+  }
+  .concorTitle{
+    color: darkslategray;
+  }

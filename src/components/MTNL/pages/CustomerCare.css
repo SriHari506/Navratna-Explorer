@@ -1,0 +1,77 @@
+/* CustomerCare.css */
+
+.title-MTNL {
+    color: #007bff;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .MTNL-body{
+    align-items: center;
+    align-content: center;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #5a5a5a;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .address-title {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .address-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .complaint-info {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .services-title, .ivrs-title, .call-center-title, .other-services-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .sub-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .service-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .ivrs-list, .call-center-list, .other-services-list {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .ivrs-list li, .call-center-list li, .other-services-list li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-btn {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border-radius: 5px;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

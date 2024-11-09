@@ -1,0 +1,51 @@
+/* src/styles/belPage.css */
+
+ h2{
+  color: darkslategray;
+}
+.bel-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background: url('https://example.com/bel-background.jpg') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  .about, .services, .contact {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+  }
+  
+  .services .service-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .services .card {
+    background: #1a237e;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .news .news-item {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #e8eaf6;
+  }
+  .belTitle, p{
+    color: darkslategray;
+  }
