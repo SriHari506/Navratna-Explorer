@@ -1,0 +1,45 @@
+/* Header Container */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f5f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo and Title Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo Image */
+.logo {
+    height: 50px; /* Adjust based on your logo size */
+    width: auto;
+    margin-right: 15px;
+}
+
+/* Title Text */
+.title-rvnl {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Navigation Links */
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Changes color on hover */
+}

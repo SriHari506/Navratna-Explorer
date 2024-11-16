@@ -1,0 +1,229 @@
+/* src/components/MTNL/pages/Mobile.css */
+
+/* General styles for the page */
+.mobile-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Main title */
+  .main-title {
+    color: #0073e6;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Intro text */
+  .intro-text {
+    text-align: center;
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  /* Section title */
+  .section-title {
+    color: #0056b3;
+    margin-top: 40px;
+    font-size: 1.8em;
+  }
+  
+  /* Container for the prepaid plans cards */
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  /* Individual card styling */
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for cards */
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .cta-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Accordion styles */
+  .accordion {
+    margin-top: 20px;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion-header {
+    padding: 15px;
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .accordion-content {
+    padding: 15px;
+    display: none;
+    background-color: #f9f9f9;
+  }
+  
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
+  
+  .accordion-header:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Slider container for postpaid plan price range */
+  .slider-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .slider {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    background-color: #0073e6;
+    border-radius: 50%;
+  }
+  
+  .slider::-webkit-slider-runnable-track {
+    background-color: #ddd;
+  }
+  
+  .slider::-webkit-slider-thumb:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table styling for the 3G Postpaid Plans */
+  .plans-table-container {
+    margin-top: 30px;
+  }
+  
+  .plans-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  /* International Roaming section */
+  .roaming-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .card {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    color: #0056b3;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .cta-button {
+    margin-top: 10px;
+    padding: 12px 25px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+      margin: 10px 0;
+    }
+  
+    .slider-container {
+      width: 100%;
+    }
+  }
+  

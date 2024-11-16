@@ -1,0 +1,63 @@
+/* Reset default margins and paddings for a clean slate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font properties */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Set height and width for body and root */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Basic styling for links */
+a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add global styling for button elements */
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font: inherit;
+}
+
+/* Input field styling */
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}

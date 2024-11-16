@@ -3,9 +3,14 @@ import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './MTNL.css'; // Import custom styles
 import mtnlLogo from './mtnl-logo.png'; // Update with actual path to the MTNL logo
+import Home from './pages/Home';
+import Mobile from './pages/Mobile';
+import Landline from './pages/Landline';
+import Broadband from './pages/Broadband';
+import Opportunities from './pages/Opportunities';
+import CustomerCare from './pages/CustomerCare';
 
-// Main MTNL component
-const MTNL = () => {
+const MTNLLayout = () => {
   return (
     <div className="mtnl-page">
       {/* MTNL Header */}
@@ -64,21 +69,4 @@ const MTNL = () => {
   );
 };
 
-// Home Component (Inner Component)
-const Home = () => {
-  return (
-    <div>
-      <h1>Welcome to MTNL Home Page</h1>
-      <p>Here you can find all the latest services and offers from MTNL.</p>
-    </div>
-  );
-};
-
-// Other Components (as placeholders)
-const Mobile = () => <div><h2>Mobile Services</h2><p>Details about MTNL's mobile services.</p></div>;
-const Landline = () => <div><h2>Landline Services</h2><p>Details about MTNL's landline services.</p></div>;
-const Broadband = () => <div><h2>Broadband Services</h2><p>Details about MTNL's broadband services.</p></div>;
-const Opportunities = () => <div><h2>Job Opportunities</h2><p>Explore career opportunities at MTNL.</p></div>;
-const CustomerCare = () => <div><h2>Customer Care</h2><p>Get help with MTNL services.</p></div>;
-
-export default MTNL;
+export default MTNLLayout;

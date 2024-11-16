@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './Homepage.css';
 
 // Company data
 const companies = [
@@ -178,16 +179,51 @@ const companies = [
       jobOpportunities: "Civil engineering and electrical engineering roles."
     }
   },
+  // Additional companies omitted for brevity...
 ];
 
-// Homepage component
+// CPSE Information data
+const cpseInfo = [
+  {
+    title: "Overview of CPSEs",
+    content: "CPSEs are government-owned enterprises in which the Central Government or other CPSEs hold at least 51% of the stake. These companies are involved in sectors like manufacturing, services, and infrastructure."
+  },
+  {
+    title: "Ratna Status",
+    content: "CPSEs are awarded Ratna statuses based on their performance, including Maharatna, Navratna, and Miniratna Categories I & II."
+  },
+  {
+    title: "Sector-wise Distribution",
+    content: "CPSEs operate in various sectors, including Manufacturing, Services, and Infrastructure Development."
+  },
+  {
+    title: "Ownership Structure",
+    content: "CPSEs are owned by the Central Government or other CPSEs, with a minimum 51% stake."
+  },
+  {
+    title: "Liquidated CPSEs",
+    content: "The Central Inland Water Transport Corporation was liquidated in 2016."
+  }
+];
+
 const Homepage = ({ searchTerm }) => {
+  const [selectedInfo, setSelectedInfo] = useState(null);
   const filteredCompanies = companies.filter(company =>
     company.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
-    <div>
+    <div className="homepage">
+      <h1>Central Public Sector Enterprises (CPSEs)</h1>
+      <div className="cpse-info-section">
+        {cpseInfo.map((info, index) => (
+          <div key={index} className="info-card" onClick={() => setSelectedInfo(info)}>
+            <h3>{info.title}</h3>
+            <p>{info.content}</p>
+          </div>
+        ))}
+      </div>
+
       <div className="company-cards">
         {filteredCompanies.length > 0 ? (
           filteredCompanies.map((company, index) => (
@@ -207,6 +243,14 @@ const Homepage = ({ searchTerm }) => {
           <p>No companies found matching your search.</p>
         )}
       </div>
+
+      {selectedInfo && (
+        <div className="info-popup">
+          <h2>{selectedInfo.title}</h2>
+          <p>{selectedInfo.content}</p>
+          <button className="close-button" onClick={() => setSelectedInfo(null)}>Close</button>
+        </div>
+      )}
     </div>
   );
 };

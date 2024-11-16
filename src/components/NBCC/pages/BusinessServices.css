@@ -1,0 +1,55 @@
+.business-services-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .business-services-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .business-services-header h1 {
+    font-size: 2.5em;
+  }
+  
+  .pmc-services, .redevelopment-projects, .milestone-projects, .secure-projects {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .card-container, .model-cards, .project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card, .project-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+  }
+  
+  .card h5, .project-card h5 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-text, .project-card ul {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .business-services-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .business-services-footer p {
+    margin: 0;
+  }
+  

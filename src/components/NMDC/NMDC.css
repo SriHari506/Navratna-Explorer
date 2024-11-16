@@ -1,0 +1,96 @@
+/* src/components/NMDC/NMDC.css */
+
+.nmdc-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.nmdc-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.nmdc-banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.nmdc-navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  background-color: #333;
+  margin: 0;
+}
+
+.nmdc-navbar ul li {
+  margin: 0 20px;
+}
+
+.nmdc-navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nmdc-navbar ul li a:hover {
+  color: #ffcc00;
+}
+
+.nmdc-section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.nmdc-section h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.nmdc-card {
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nmdc-card h3 {
+  color: #0073e6;
+}
+
+.opportunities-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.opportunity {
+  background-color: #e6f7ff;
+  padding: 15px;
+  border-radius: 8px;
+  min-width: 250px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+  color: #666;
+  margin: 5px 0;
+}
+.nmdc-hero {
+  background-image: url("nmdc-hero.jpg");
+  background-size: cover;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+
+.nmdc-hero h2 {
+  font-size: 36px;
+}
+
+.nmdc-hero p {
+  font-size: 20px;
+}

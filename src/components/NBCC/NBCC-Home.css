@@ -1,0 +1,111 @@
+/* src/components/NBCC/NBCC.css */
+
+/* General page layout */
+.nbcc-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  /* NBCC Header */
+  .nbcc-header {
+    background-color: #fcfdfd; /* Dark blue background */
+    padding: 20px 0;
+  }
+  
+  .nbcc-logo {
+    width: 40%;
+    text-align: center;
+    height: auto;/* Adjust logo size */
+    margin-left: 35%;
+    
+  }
+  
+  /* Navbar */
+  .nbcc-navbar {
+    background-color: #074261; /* Dark blue background */
+    padding: 15px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-toggle {
+    display: none; /* For responsiveness (hide toggle for now) */
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 500px; /* Ensure content area has a decent height */
+  }
+  
+  .main-content h2 {
+    font-size: 2rem;
+    color: #074261; /* Matching with existing branding color */
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #074261;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .navbar-toggle {
+      display: block; /* Show toggle button on smaller screens */
+    }
+  
+    .navbar-links {
+      display: none; /* Hide links on small screens initially */
+    }
+  
+    .navbar-toggle.active + .navbar-links {
+      display: block; /* Show links when toggle is active */
+    }
+  }
+  

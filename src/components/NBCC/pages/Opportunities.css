@@ -1,0 +1,111 @@
+/* General Styling */
+.opportunities-container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  .title-Opportunities {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2d3e50;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .job-roles {
+    margin-bottom: 40px;
+  }
+  
+  .job-roles h3 {
+    font-size: 1.8rem;
+    color: #2d3e50;
+    margin-bottom: 15px;
+  }
+  
+  .job-roles ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-roles li {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-roles li strong {
+    font-size: 1.5rem;
+    color: #2d3e50;
+  }
+  
+  .job-roles li p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .job-roles li ul {
+    margin-top: 10px;
+  }
+  
+  .job-roles li ul li {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .application-process, .important-dates {
+    margin-top: 40px;
+  }
+  
+  .application-process h3, .important-dates h3 {
+    font-size: 1.8rem;
+    color: #2d3e50;
+    margin-bottom: 15px;
+  }
+  
+  .application-process ol, .important-dates ul {
+    margin-left: 20px;
+  }
+  
+  .application-process li, .important-dates li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .application-process ol {
+    list-style-type: decimal;
+  }
+  
+  .application-process p, .important-dates p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .important-dates ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .important-dates li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .important-dates li strong {
+    font-weight: bold;
+    color: #2d3e50;
+  }
+  

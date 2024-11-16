@@ -1,0 +1,25 @@
+/* src/pages/Home.css */
+
+.home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.home-overlay {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding-top: 20%;
+}

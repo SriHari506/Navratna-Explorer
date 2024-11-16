@@ -1,0 +1,37 @@
+/* Parallax Scroller Container */
+.parallax-container {
+    overflow: hidden;
+    width: 600%;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+/* Scroller to handle the continuous horizontal scroll */
+.parallax-scroller {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+/* Individual Image Wrapper */
+.parallax-image-wrapper {
+    min-width: 200px; /* Adjust based on image width */
+    margin: 0 10px;
+}
+
+/* Parallax Image Styling */
+.parallax-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Keyframes for the scrolling effect */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

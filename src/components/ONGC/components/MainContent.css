@@ -1,0 +1,54 @@
+.main-content {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Fullscreen video background styling */
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 36%;
+    object-fit: cover;
+    z-index: -1; /* Places the video behind the content overlay */
+  }
+  
+  /* Overlay for content on top of the video */
+  .content-overlay {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 250px;
+  }
+  
+  /* Banner styling */
+  .banner {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    /* margin-top: 25%; */
+  }
+  
+  /* Alert section styling */
+  .alerts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between rows */
+    
+  }
+  
+  .alert {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px; /* Adds rounded corners */
+  }
+  
+  .green { background-color: #7c9c3f; }
+  .red { background-color: #d32f2f; }
+  .yellow { background-color: #fbc02d; }
+  .blue { background-color: #1976d2; }
+  

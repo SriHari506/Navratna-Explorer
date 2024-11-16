@@ -1,0 +1,53 @@
+/* Global Reset and Body Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Background Video Styling for the Home Page */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.65; /* Adjust opacity for better clarity */
+  filter: brightness(0.9) contrast(1.1) saturate(1.2); /* Enhance clarity and color */
+}
+
+/* Medium Screen Adjustments */
+@media (max-width: 992px) {
+  .background-video {
+    height: 60vh; /* Scale down for medium screens */
+  }
+}
+
+/* Small Screen Adjustments */
+@media (max-width: 576px) {
+  .background-video {
+    height: 50vh; /* Scale down further for small screens */
+    filter: brightness(0.8) contrast(1.2); /* Increase brightness and contrast */
+  }
+}
+
+/* Overlay Styling */
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+/* Page Content Styling */
+.content {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
