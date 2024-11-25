@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Homepage from './Homepage';
 import About from './About';
-import BEL from './components/BEL/BEL';
-import CONCOR from './components/CONCOR';
+import BEL from './components/Bel/components/bel';
+import CONCOR from './components/Concor/components/concor';
 import MTNL from './components/MTNL/MTNL';
 import NBCC from './components/NBCC/NBCC-Home';  // NBCC Component import
 import './App.css';
